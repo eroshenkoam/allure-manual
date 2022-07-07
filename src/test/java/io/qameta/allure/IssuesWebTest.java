@@ -22,6 +22,7 @@ public class IssuesWebTest {
     private static final String ISSUE_TITLE = "Some issue title here";
 
     @Test
+    @Manual
     @JiraIssue("AE-1")
     @Story("Create new issue")
     @Tags({@Tag("web"), @Tag("critical")})
@@ -33,6 +34,7 @@ public class IssuesWebTest {
     }
 
     @Test
+    @Manual
     @JiraIssue("AE-1")
     @Story("Close existing issue")
     @Tags({@Tag("web"), @Tag("regress")})

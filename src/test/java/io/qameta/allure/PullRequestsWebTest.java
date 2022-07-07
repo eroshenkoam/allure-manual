@@ -22,6 +22,7 @@ public class PullRequestsWebTest {
     private static final String BRANCH = "new-feature";
 
     @Test
+    @Manual
     @JiraIssue("AE-2")
     @Story("Create new pull request")
     @Tags({@Tag("web"), @Tag("regress"), @Tag("smoke")})
@@ -33,6 +34,7 @@ public class PullRequestsWebTest {
     }
 
     @Test
+    @Manual
     @JiraIssue("AE-2")
     @Story("Close existing pull request")
     @Tags({@Tag("web"), @Tag("regress")})
